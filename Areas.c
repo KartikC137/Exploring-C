@@ -60,7 +60,7 @@ float triangle(float h, float base) {
   int u;
   printf("Continue to another Shape?\n 1 or 0\n");
   scanf("%d", &u);
-  if(u == 1) { return main();} // This command is so that, if the user wants to exit function, they can type 0, which will make this condtion false and main is not returned
+  if(u == 1) { return main();} // This command ensures that if the user wants to exit function, they can type 0, which will make this condtion false and main is not returned.
   else {printf("Bye\n");}
   return 0;
   
